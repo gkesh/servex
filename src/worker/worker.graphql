@@ -1,6 +1,22 @@
+enum Proficiency {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+type Skill {
+  id: ID!
+  title: String!
+  proficiency: Proficiency!
+  experience: Int!
+}
+
 type Worker {
-  # Example field (placeholder)
-  exampleField: Int
+  id: ID!
+  firstName: String!
+  middleName: String
+  lastName: String
+  skills: [Skill]!
 }
 
 input CreateWorkerInput {
