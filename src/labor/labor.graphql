@@ -1,0 +1,24 @@
+type Labor {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input CreateLaborInput {
+  # Example field (placeholder)
+  exampleField: Int
+}
+
+input UpdateLaborInput {
+  id: Int!
+}
+
+type Query {
+  labor: [Labor]!
+  labor(id: Int!): Labor
+}
+
+type Mutation {
+  createLabor(createLaborInput: CreateLaborInput!): Labor!
+  updateLabor(updateLaborInput: UpdateLaborInput!): Labor!
+  removeLabor(id: Int!): Labor
+}
