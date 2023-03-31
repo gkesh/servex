@@ -45,7 +45,7 @@ $ yarn run test:cov
 ## Stay in touch
 
 - Author - [Jikesh Thapa](https://github.com/gkesh)
-- Email - [https://nestjs.com](mailto://gkeshthapa@gmail.com)
+- Email - [gkeshthapa@gmail.com](mailto://gkeshthapa@gmail.com)
 
 ## License
 
