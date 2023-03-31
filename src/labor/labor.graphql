@@ -13,7 +13,7 @@ input UpdateLaborInput {
 }
 
 type Query {
-  labor: [Labor]!
+  labor: String!
   labor(id: Int!): Labor
 }
 
